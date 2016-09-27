@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+}
+
+.container, .row, .col-sm-10{
+	height: inherit;
+}
+
+#mainForm, #questionDisplay, #resultsDisplay {
+	background-color: #FFFFFF;
+	border-radius:10px;
+	height: 30vh;
+	margin: auto;
+	padding:20px 20px 0;
+	text-align: center;
+
+	position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
